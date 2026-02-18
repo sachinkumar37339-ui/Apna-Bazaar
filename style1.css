@@ -1,0 +1,94 @@
+.fstline{
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sndline{
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+}
+
+.product2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trdline{
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+}
+
+.product3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.frthline{
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+}
+
+.product4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.fifthline{
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+}
+
+.product5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sxthline{
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+}
+
+.product6{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.svnthline{
+    border: 2px solid black;
+    width: 300px;
+    padding: 5px;
+}
+
+.product7{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+
+
+/*.inline{
+  display: inline-block;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 20px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Panel</title>
+ 
+  <style>
+    body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+.account-box {
+  width: 420px;
+  border: 2px solid #2563eb;
+  background: #ffffff;
+  padding: 15px;
+}
+
+.top-section p,
+.bottom-section p {
+  margin: 8px 0;
+}
+
+.login-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-btn {
+  padding: 4px 12px;
+  border: 1px solid #2563eb;
+  background: white;
+  cursor: pointer;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+.bottom-section h3 {
+  margin-top: 0;
+}
+
+.logout-btn {
+  margin-top: 10px;
+  padding: 6px 15px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>
+
+  <div class="account-box">
+
+    <!-- Top Section -->
+    <div class="top-section">
+      <div class="login-row">
+        <span>Login in your acc</span>
+        <button class="login-btn">Login</button>
+      </div>
+
+      <p>Your Orders</p>
+      <p>Wish List</p>
+    </div>
+
+    <!-- Divider -->
+    <hr>
+
+    <!-- Bottom Section -->
+    <div class="bottom-section">
+      <h3>Account Setting</h3>
+      <p>Select Language</p>
+      <p>Notification Setting</p>
+      <p>Privacy Center</p>
+      <button class="logout-btn">Logout</button>
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <header>
+
+        <div class="nav">
+
+            <div class="nv"><img src="apnalogoo-removebg-preview.png" height="100px" width="175px"> </div>
+           <div class="nv"> <a href="profile.html"><i class="bi bi-person-circle">profile</i></a></div>
+           <div class="nv"> <a href="mycart.html"><i class="bi bi-cart3"></i>my cart</a></div>
+           <div id="pholdr"> <input type="text" placeholder="search for product"> <button id="search">search</button> </div>
+
+        <div class="nv">
+            <div><a href="https://maps.google.com">Location</a><div><a href="https://maps.google.com"><i class="bi bi-geo-alt-fill"></i>map </div></a></div>
+        </div>
+
+           <div class="nv"><a href="menu.html"><i class="bi bi-list"></i> </a></div>
+            
+        </div>
+    </header>
+
+    <div id="coverphoto"></div>  <!--Cover photo-->
+
+   
+    <div  id="filter">
+        <div class="mmm">
+        <div id="cat"><ul><li> <b> CATEGORY </b> </li></ul> <br>
+       
+        <span class="fltr"></span><input type="checkbox"value= "Electronics" name="Electronics"> Electronics</span><br>
+        <span class="fltr"></span><input type="checkbox"value= "Fashion" name="Fashion"> Fashion </span> <br>
+        <span class="fltr"></span><input type="checkbox"value= " Stationary" name=" Stationary"> Stationary </span> <br>
+        <span class="fltr"></span><input type="checkbox"value= "cosmetics" name="cosmetics"> cosmetics </span> <br>
+        <span class="fltr"></span><input type="checkbox"value= " Grocery " name=" Grocery "> Grocery  <br></span> <br>
+        <br><br> </div>
+
+         </div>
+         
+       
+
+     <div class="mmm">
+        <div id="pr">
+         <ul><li> <b> PRICE RANGE </b> </li></ul> <br>
+       
+       <span class="fltr"></span> <input type="radio"value= "₹500 - ₹1000" name="price"> ₹500 - ₹1000 <br> </span>
+       <span class="fltr"></span> <input type="radio"value= "₹1000 - ₹2000" name="price"> ₹1000 - ₹2000 <br> </span>
+       <span class="fltr"></span> <input type="radio"value= "₹2000 - ₹3000" name="price"> ₹2000 - ₹3000 <br> </span>
+       <span class="fltr"></span> <input type="radio"value= "₹3000 - ₹4000" name="price"> ₹3000 - ₹4000 <br> </span>
+       <span class="fltr"></span><input type="radio"value= "₹4000 - ₹5000" name="price"> ₹4000 - ₹5000 <br> </span>
+       <br><br> </div>
+
+        </div>
+       
+     <div class="mmm">
+        <div id="rtng">
+       <ul><li> <b> RATING </b> </li></ul> <br>
+       
+       <span class="fltr"></span> <input type="radio"value= "⭐⭐⭐⭐⭐" name="rating"> ⭐⭐⭐⭐⭐ <br></span>
+       <span class="fltr"></span><input type="radio"value= "⭐⭐⭐⭐" name="rating"> ⭐⭐⭐⭐ & above <br></span>
+       <span class="fltr"></span> <input type="radio"value= "⭐⭐⭐" name="rating"> ⭐⭐⭐ & above <br></span>
+       <span class="fltr"></span><input type="radio"value= "⭐⭐" name="rating"> ⭐⭐ & above <br></span>
+       <span class="fltr"></span><input type="radio"value= "⭐" name="rating"> ⭐ & above <br></span>
+       <br><br> </div>
+
+
+        </div>
+    
+    </div>
+
+    <!--product list-->    
+
+    <div id="productlist" >
+    <div class="product">
+        <div class="fstline">
+            <img src="I phone.jpeg" height="330px" width="315px"><br>
+            <div><h2> iphone </h2><br>
+             <h3>₹154000</h3><br>
+             <h3>⭐⭐⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+
+        <div class="fstline" class="line">
+            <img src="headphone.jpeg" height="330px" width="315px"><br>
+
+            <div> <h2>Headphone</h2><br>
+             <h3>₹3000</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <span ><button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button></span><br>
+             </div><br><br>
+
+        </div>
+        
+
+        <div class="fstline">
+            <img src="macbook.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>MacBook</h2><br>
+             <h3>₹80000</h3><br>
+             <h3>⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div> 
+
+        <div class="fstline">
+            <img src="ac.jpeg" height="330px" width="315px"><br>
+            <div><h2> Air conditioner</h2><br>
+             <h3>₹53000</h3><br>
+             <h3>⭐⭐⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+    </div>
+    <br><br>
+
+    <div class="product2">   
+        <div class="sndline">
+            <img src="speaker.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Speaker</h2><br>
+             <h3>₹15000</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+
+         <div class="sndline">
+            <img src="shirt.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Men Shirt</h2><br>
+             <h3>₹1800</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div>
+        </div>
+
+        <div class="sndline">
+            <img src="shoes.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Shoes</h2><br>
+             <h3>₹18000</h3><br>
+             <h3>⭐⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+
+         <div class="sndline">
+            <img src="jacket.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Jacket</h2><br>
+             <h3>₹3999</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+    </div>
+        <br><br>
+
+    <div class="product3">
+        <div class="trdline">
+            <img src="jeans.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Fansy jeans</h2><br>
+             <h3>₹2700</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div> 
+
+        <div class="trdline">
+            <img src="lehanga.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Lehanga</h2><br>
+             <h3>₹17,500</h3><br>
+             <h3>⭐⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+
+        <div class="trdline">
+            <img src="Geometry box.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Geometry Box</h2><br>
+             <h3>₹300</h3><br>
+             <h3>⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+
+         <div class="trdline">
+            <img src="pen.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Pen</h2><br>
+             <h3>₹35</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div> 
+    </div>
+        <br><br>
+
+        <div class="product4" >
+        <div class="frthline">
+            <img src="colour box.jpeg" height="330px" width="315px"><br>
+            <div> <h2>Colour box</h2><br>
+             <h3>₹1352</h3><br>
+             <h3>⭐⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div>
+
+        </div>
+
+        <div class="frthline">
+            <img src="whitner.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Marker (whitener + highliter)</h2><br>
+             <h3>₹200</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div>
+        </div>
+        
+
+        <div class="frthline">
+            <img src="notebook.jpeg"  height="330px" width="315px"><br>
+            <div> <h2> Notebook</h2><br>
+             <h3>₹225</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div>
+
+        </div> 
+
+         <div class="frthline">
+            <img src="baby jonsen.jpeg" height="330px" width="315px"><br>
+            <div> <h2>Baby johnson kit</h2><br>
+             <h3>₹547</h3><br>
+             <h3>⭐⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div>
+
+        </div>
+    </div>
+        <br><br>
+
+    <div class="product5">
+        <div class="fifthline">
+            <img src="Sunscreen.jpeg" height="330px" width="315px"><br>
+            <div> <h2>Sunscreen</h2><br>
+             <h3>₹417</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+
+         <div class="fifthline">
+            <img src="makeup kit.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Makeup Kit</h2><br>
+             <h3>₹732</h3><br>
+             <h3>⭐⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+
+        <div class="fifthline">
+            <img src="lakeme.jpeg" height="330px" width="315px"><br>
+            <div> <h2>Lakeme cream</h2><br>
+             <h3>₹1367</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+
+         <div class="fifthline">
+            <img src="lipstickkk.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Lipstick</h2><br>
+             <h3>₹417</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+    </div>
+        <br><br>
+
+    <div class="product6">
+        <div class="sxthline">
+            <img src="fortune.jpeg" height="330px" width="315px"><br>
+            <div> <h2>Fortune</h2><br>
+             <h3>₹200</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div> 
+
+        <div class="sxthline">
+            <img src="Maggi.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Maggi</h2><br>
+             <h3>₹115</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+
+         <div class="sxthline">
+            <img src="Aashivaad Aata.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Aashivaad Aata</h2><br>
+             <h3>₹325</h3><br>
+             <h3>⭐⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div>
+
+         <div class="sxthline">
+            <img src="tata tea.jpeg"  height="330px" width="315px"><br>
+            <div> <h2>Tata tea</h2><br>
+             <h3>₹155</h3><br>
+             <h3>⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+             </div><br><br>
+
+        </div> 
+    </div>
+        <br><br>
+
+    <div class="product7">
+
+         <div class="svthline">
+             <img src="tata salt.jpeg" height="330px" width="315px"><br>
+             <h2>TATA Salt</h2><br>
+             <h3>₹100</h3><br>
+             <h3>⭐⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button>
+         </div>
+
+         <div class="svthline">
+              <img src="horlicks.jpeg"  height="330px" width="315px"><br>
+              <h2>Horlicks</h2><br>
+              <h3>₹450</h3><br>
+              <h3>⭐⭐⭐⭐</h3><br>
+              <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+     </div>
+
+         <div class="svthline">
+              <img src="Coffee.jpeg"  height="330px" width="315px"><br>
+              <h2>Coffee</h2><br>
+             <h3>₹887</h3><br>
+             <h3>⭐⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button><br>
+         </div>
+
+          <div class="svthline">
+             <img src="brown bread.jpeg"  height="330px" width="315px"><br>
+             <h2>Brown bread</h2><br>
+             <h3>₹40</h3><br>
+             <h3>⭐⭐⭐⭐</h3><br>
+             <button class="atc"><i class="bi bi-cart-plus"></i>  Add to cart</button>
+         </div>
+
+</div>
+</div>
+
+<!--Footer-->
+
+
+    <footer>
+
+<div class="inline"> <div class="z" id="cntc"> <h3> Contact us 👇 <a href =
+"https://chat.whatsapp.com/FI9AuSQkOnCI7npoSxZ2RH?mode=gi_t">whatsapp</a> </div> </div>
+
+
+<div class="inline">  <div  id="fedb"><p > <h3 id="h3"> About us </h3> <p> Apna Bazaar is a modern e-commerce platform designed to make online  experience through easy navigation, clear product information, and secure checkout. We focus on user-friendly design, transparent pricing, and customer satisfaction.
+Apna Bazaar is built as a learning-based project to demonstrate web development skills, including responsive design and structured product listing. We are continuously improving to deliver better performance and features. </p> </p> </p> </div> </div>
+
+
+
+<div class="inline">  <div id="tollfno"> <h4> Toll Free Number 👇 9341726662 </p> </div> </div>
+
+
+
+<div class="inline">  <div id="help"> <h5> Help </h5> </div> </div>
+
+<div class="inline">  <div  id="fed"> <textarea placeholder="Give your feedback here" rows="5" cols="30"></textarea></div> </div>
+
+
+<div id="x"> © 2026,Apna Bazar is created by sachin <a href = "mailto:sachinkumar37339@gmail.com">email id</a> | <a href ="https://www.instagram.com/sachin._.77?igsh=MXV1ZTRnN3RkdGxsdw==">insta id</a>
+
+, harsh <a href = "mailto:harshkumar7630@gmail.com">email id</a> | <a href = "https://www.instagram.com/harsh_bhumiharr?igsh=MTNuMXlsNnA3Yjg5ag==">insta id </a>
+
+, anmol <a href = "mailto:ianmoltiwari@gmail.com"> email id</a> | <a href = "https://www.instagram.com/anmoltiwari512?igsh=aGpkNnV4MHpzdGZ0">insta id </a>
+
+,sanu
+,aman
+ </div>
+ <br>
+ 
+</footer>
+</body>
+</html>

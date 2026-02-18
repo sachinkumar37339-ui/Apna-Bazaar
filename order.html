@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       h1{
+         text-align: center;
+         padding: 10px;
+         background-color: blue;
+         color: white;
+         margin-bottom: 15px;
+       }    
+
+       #box{
+        background-color: rgb(237, 242, 245);
+        width: 300px;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 15px;
+        position: relative;
+        margin-left: 30px;
+        padding: 10px;
+        box-shadow: 00 rgb(15, 15, 15);
+        
+        
+       }
+
+       #srch{
+        background-color: yellow;
+       }
+
+       #crt{
+        background-color:blue;
+        color: white;
+       }
+
+       #itm{
+        align-items: center;
+       }
+
+
+       #date{
+            width: 400px;
+            background-color: white;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            position: relative;
+            left: 35px;
+            top: 2px;
+           
+        }
+       
+        main{
+          display: inline-block;
+        }
+       
+        #sz{
+          position: relative;
+          left: 20px;
+          margin: 20px;
+          
+        }
+
+        button{
+          
+          font-size: 20px;
+        }
+
+        input{
+          font-size: 20px;
+        }
+       
+  </style>
+</head>
+<body>
+   <h1> Your orders </h1>
+  <main>
+
+   <div id="sz">
+    <input placeholder="search your order here"> <button id="srch">search</button> <br><br>
+   </div> 
+
+  <div id="box">
+    <div>
+<img src="shirt.jpeg" height="250px" width="300px">
+            <div> <h2>Shirt</h2>
+             <h3>₹1800</h3>
+             <h3>⭐⭐</h3>
+             <button id="crt">Add to cart</button>
+
+    </div>
+
+  </div>     
+  </main> 
+  
+  
+   <main>
+    <div id="date">
+  <div class="step active">
+    <b >Order Confirmed</b> Sun 15th Feb'26<br><br>
+    <b>Your Order has been placed.</b><br>
+    Sun 15th Feb'26 - 1:47pm<br><br><br>
+  </div> 
+  
+     <div>
+        <b>Shipped Expected By Mon 16th Feb</b><br>
+        item yet to be Shipped.<br>
+        Expected by Mon,16th Feb<br>
+        item yet to reach hub nearest to you.<br><br><br>
+        <b>Out For Delivery </b><br>
+        item yet to be delivered.<br><br><br>
+        <div>
+           <b> Delivery Expected By Tue 17th Feb</b><br>
+            item yet to be delivered.<br>
+            Expected by Tue,17th Feb
+        </div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
